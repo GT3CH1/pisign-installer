@@ -27,7 +27,7 @@ User=pi
 [Install]
 WantedBy=network.target
 EOF
-chown pi:pi /home/pi/pisignage-server/data/releases/server-package.json
-chmod 755 /home/pi/pisignage-server/data/releases/server-package.json
+chown pi:pi -R /home/pi/pisignage-server
+chmod 755 -R /home/pi/pisignage-server
 systemctl enable --now pisign
 exit
