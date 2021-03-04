@@ -30,4 +30,3 @@ EOF
 chown pi:pi -R /home/pi/pisignage-server
 chmod 755 -R /home/pi/pisignage-server
 systemctl enable --now pisign
-exit
