@@ -4,7 +4,7 @@ echo "Run this script with sudo. "
 exit 1
 fi
 apt update -y
-apt install docker docker-compose git mongodb ffmpeg imagemagick -y
+apt install git mongodb ffmpeg imagemagick -y
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 apt install nodejs -y
 git clone https://github.com/colloqi/pisignage-server
